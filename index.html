@@ -4,10 +4,63 @@
     <title>HTML/CSS Lab</title>
     <link rel="stylesheet" href="https://unpkg.com/basscss@8.0.1/css/basscss.min.css">
     <style>
+      .muted{
+        color: #999;
+      }
+      .profile{
+        width: 50px;
+        height: 50px;
+      }
 
     </style>
   </head>
-  <body>
+  <body class="flex justify-center">
+    <div class="mt4" style="width: 600px">
+        <div class="flex border-bottom mb2">
+            <div>
+                <img class="profile rounded mr2" src="http://glia.ca/scm/2013/ge1127_b/wp-content/uploads/2013/10/594partner-profile-pic-An.jpg" alt="Margaret" >                
+            </div>
+            <div class="flex flex-column">
+                <small>
+                  <strong>Margaret Smith</strong>
+                  <span class="muted">@margaretful - Jun 22</span>
+                </small>
+                <div class="flex">
+                  <p>Greg B is such a super duper programmer. I hope some day he can work as programmer, doing
+                  fulfilling work.  I know he's never done learning, solving puzzle after puzzle</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex border-bottom mb2">
+          <div>
+              <img class="profile rounded mr2" src="http://www.milgrom.net/sites/default/files//milgrom-profile.jpg" alt="Just a dude." >
+          </div>
+          <div class="flex flex-column">
+              <small>
+                <strong>John E. Smart</strong>
+                <span class="muted">@smartE - Jun 23</span>
+              </small>
+              <div class="flex">
+                <p>hey @margaretful, I'm going to have to agree with you on this.  Greg is a really hardworking individual.Greg B is such a super duper programmer. Greg B is such a super duper programmer. Greg B is such a super duper programmer. Greg B is such a super duper programmer. Greg B is such a super duper programmer. Greg B is such a super duper programmer. Greg B is such a super duper programmer. Greg B is such a super duper programmer.</p>
+              </div>
+          </div>
+       </div>
+       <div class="flex mb2">
+          <div>
+              <img class="profile rounded mr2" src="http://www.mountaindew.com/assets/content/69468/13398/21538-kyrie%20copy.jpg" alt="Just a dude." >
+          </div>
+          <div class="flex flex-column">
+              <small>
+                <strong>Kyrie Irving</strong>
+                <span class="muted">@Kyring - Jul 18</span>
+              </small>
+              <div class="flex">
+                <p>If the @PhxSuns had told me Greg would be my programmer, I would have had no problem signing a lifetime contract
+                with the Suns.</p>
+              </div>
+          </div>
+       </div>
 
+    </div>
   </body>
 </html>
